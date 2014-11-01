@@ -1,0 +1,4 @@
+browsers:
+  - "last 5 versions"
+  - "> 50%"
+  - "Explorer >= 7"

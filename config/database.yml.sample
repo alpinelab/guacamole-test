@@ -1,0 +1,17 @@
+defaults: &defaults
+  adapter: postgresql
+  username: 'guacamole'
+  password: 'secret'
+  encoding: utf8
+
+development:
+  <<: *defaults
+  database: guacamole_development
+
+test:
+  <<: *defaults
+  database: guacamole_test
+
+production:
+  <<: *defaults
+  database: guacamole_production
