@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Ruby/Rails
 ruby '2.1.2'
 gem 'rails', '~> 4.1.7'
+gem 'newrelic_rpm'
 
 # Database
 gem 'pg', '~> 0.17.1'
