@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Ruby/Rails
-ruby '2.0.0'
+ruby '2.1.2'
 gem 'rails', '~> 4.1.7'
 
 # Database
